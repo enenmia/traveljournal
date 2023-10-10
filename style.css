@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    color: #2B283A;
+    font-family: 'Inter', sans-serif;
+}
+
+nav{
+    background-color: #F55A5A;
+    display: flex;
+    margin: -10px;
+    justify-content: center;
+
+    
+}
+.nav--logo{
+    width: 2rem;
+    height: 2rem;
+    margin: auto 10px;
+}
+.nav--font{
+    color: white;
+    font-weight: 2;
+}
+ /* 要有container不然没用，但css直接在img写就可以了 */
+.imgcontainer img {
+    width: 150px;
+    height: 200px;
+     object-fit: cover;
+     border-radius: 10px;
+}
+.cardlist{
+    margin:40px 20px;
+   
+}
+.card{
+     display: flex;
+     padding: 20px 0;
+     font-size: 14px;
+     border-bottom: solid #F5F5F5 1px;
+}
+.texts{
+    padding:0 40px;
+    height: 200px;
+}
+.titleLine{
+    display: flex;
+    margin-bottom: -20px;
+}
+a{
+    margin-top: 13px;
+    font-weight: 200;
+    padding: 0 20px;
+    color: #918E9B;
+}
+.date{
+    font-weight: bold;
+}
+.des,.titleLine,{
+    font-weight: lighter;
+    padding:5px 0;
+}
+.loclogo{
+    height: 13px;
+    margin-top:15px;
+    margin-right:5px;
+}
+.loc{
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+.des{
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+.footer{
+    text-align: center;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    color: #918E9B;
+    font-weight: 100;
+    font-size: 10px;
+    letter-spacing: 1px;
+}
